@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.one{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(3, 134, 134);
+}
+.one h1{
+    color:#fff;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.one h1:hover{
+    color: rgb(244, 15, 15);
+}
+.one button{
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 1px solid;
+    font-size: 24px;
+}
+.one button:hover{
+    background-color: greenyellow;
+    border:1px solid greenyellow;
+    color: rgb(253, 6, 109);
+}
+.two{
+    height: 100vh;
+    display: none;
+    background-color: rgb(229, 163, 77);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.two h1{
+    color: rgb(241, 13, 17);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.two h1:hover{
+    color: blue;
+}
+.two img{
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(169, 227, 227);
+}
+.two img:hover{
+    color: blue;
+    background-color: blue;
+    scale: 1.2;
+    transition: all 1s ease-in-out;
+}
+.three{
+    height: 100vh;
+    background-color: rgb(250, 183, 111);
+    position: relative;
+    display: none;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 1rem 2rem;
+}
+.flex p{
+    font-size: 20px;
+    border: 1px solid; 
+    border-radius: 10px;
+    background-color: rgba(54, 33, 243, 0.989);
+    padding: 5px 10px;
+    color: rgb(246, 255, 0);
+}
+
+
+.photos img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
